@@ -1,3 +1,5 @@
+# Counter Service
+
 You are to create a webservice that keeps track of counters. It should have the following
 capabilities:
 1. Creating a counter
