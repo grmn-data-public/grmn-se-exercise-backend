@@ -8,7 +8,7 @@ capabilities:
 
 For example, the API spec for such a service could look like this:
 
-1. `POST /counter`, the response of which should contain the =id= of the counter.
+1. `POST /counter`, the response of which should contain the `id` of the counter.
 2. `PATCH /counter/{:id}`
 3. `GET /counter/{:id}`
 
