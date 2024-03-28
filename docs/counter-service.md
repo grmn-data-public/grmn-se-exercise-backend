@@ -28,11 +28,19 @@ concurrent `PATCH` requests to the same counter should result in the counter bei
 
 * The documentation should have instructions for running the service, e.g., it should be easy for us
   to get a functional counter service up an running.
-* The code should be stored in a Git repo. 
+* The code should be stored in a Git repo.
 
 ## Hints
 
 * You are free to choose how to store the counters, using an in-memory data structure, or an
   external database are both valid options.
-* Focus on creating clean and modular code
-* Implement proper validation and error handling
+* Focus on creating clean and modular code.
+* Implement proper validation and error handling.
+
+## Suggestions
+
+### Python
+
+* A simple framework to use for setting up a webservice is [Flask](https://pypi.org/project/Flask/),
+  or if you like Python type hinting and async functions,
+  [FastAPI](https://pypi.org/project/fastapi/).
